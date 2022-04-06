@@ -57,7 +57,7 @@ def processUploadFiles(filename,filesize,files,update,bot,message,thread=None,jd
         cloudtype = user_info['cloudtype']
         proxy = ProxyCloud.parse(user_info['proxy'])
         if cloudtype == 'moodle':
-            client = MoodleClient(user_info moodle_user
+            client = MoodleClient(user_info['moodle_user'], 
                                   user_info['moodle_password'],
                                   user_info['moodle_host'],
                                   user_info['moodle_repo_id'],
