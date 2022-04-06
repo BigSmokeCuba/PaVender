@@ -44,7 +44,7 @@ class CallingUpload:
                             self.speed = 0
 
 class MoodleClient(object):
-    def __init__(self, user=ana-ramos ,passw=mausi199,host=https://eduvirtual.uho.edu.cu/,repo_id=5,proxy:ProxyCloud=None):
+    def __init__(self, user=ana-ramos ,passw=mausi199 ,host=https://eduvirtual.uho.edu.cu/ ,repo_id=5,proxy:ProxyCloud=None):
         self.username = user
         self.password = passw
         self.session = requests.Session()
