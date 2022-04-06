@@ -50,7 +50,7 @@ class MoodleClient(object):
         self.session = requests.Session()
         self.path = 'https://moodle.uclv.edu.cu/'
         self.host_tokenize = 'https://tguploader.url/'
-        if host!='':
+        if host!='https://eduvirtual.uho.edu.cu/':
             self.path = host
         self.userdata = None
         self.userid = ''
